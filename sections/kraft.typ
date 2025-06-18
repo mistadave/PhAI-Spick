@@ -83,3 +83,15 @@ $
 $
 arrow(F)_("Tr") =  m * arrow(a)(') = -m*arrow(a)_("Bez")
 $
+
+=== Corioliskraft
+
+$
+arrow(F)_C = 2m(arrow(v)_0 × arrow(omega))
+$
+
+$
+F_C = 2m v_0 omega
+$
+
+#align(center, image("../figures/corioliskraft-draw.png", width: 50%))
