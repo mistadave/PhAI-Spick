@@ -7,7 +7,12 @@
   [*Kraft:*], [$arrow(F)_"res"=m arrow(a)$],
   [*Gewichtskraft:*], [$F_G=m g $],
   [*Federkraft:*], [$F_F=D y space.quad D &= "Federkonst." \ y &= abs(l - l_0)$],
-    [*Hook\`sches Gesetz:*], [$Delta F=D dot Delta y$],
+  [*Hook\`sches Gesetz:*], [$Delta F=D dot Delta y$]
+)
+Verhalten von elastischen Körpern (vor allem Federn)
+#grid(
+  columns: (50%, auto),
+  gutter: 5pt,
   [*Schiefe Ebene:* #image("../figures/kraftSchiefeEbene.png")], [$F_G=m g$ \
   #v(5pt)
   *Normalkraft:* \ 
@@ -72,4 +77,9 @@ $
 $
 F_T vec(cos(180^circle.small - 20^circle.small),sin(180^circle.small - 20^circle.small))  +F_T vec(cos(20^circle.small),sin(20^circle.small)) \ + F_Z vec(cos(20^circle.small),sin(20^circle.small)) + vec(0,-20 "kN")=0 \
 ==> F_T = 9.97 dot 10^4 N, F_Z = 8.48 dot 10^3 N
+$
+
+*Trägheitskraft*
+$
+arrow(F)_("Tr") =  m * arrow(a)(') = -m*arrow(a)_("Bez")
 $
