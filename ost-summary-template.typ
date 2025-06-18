@@ -1,6 +1,6 @@
 #let conf(lecture: "", authors: "", doc) = {
   let line_skip = 0.4em
-  let font_size = 7.5pt
+  let font_size = 7pt
   let level1_color = "#8c195f";
   let level2_color = "#a12b66"; 
   let level3_color = "#b63d6d"; 
@@ -16,9 +16,9 @@
     margin: ("top": 8mm, "rest": 5mm),
     header-ascent: 1.5mm,
     header: align(center, text(
-      1.1em,
+      1em,
       weight: "bold",
-      [#lecture / #authors / #counter(page).display()],
+      context([#lecture / #authors / #counter(page).display()]),
     )),
   )
   set text(size: font_size, font: "Noto Sans")

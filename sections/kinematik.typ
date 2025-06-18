@@ -43,7 +43,7 @@ $
 
 $ vec(x(t), y(t)) = vec(0,y_0) + v_0 vec(cos(alpha), sin(alpha)) dot t + 1/2 vec(0,-g) t^2 $
 
-#image("../figures/schieferwurf.png")
+#image("../figures/schieferWurf.png")
 
 #grid(
   columns: (auto, 38%),
