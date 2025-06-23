@@ -41,3 +41,8 @@ Diese Gleichung beschreibt die Bewegung eines harmonischen Oszillators unter Ber
 - *Menu → 3 → 7 → 1* für Gleichungsystem lösen
 - *doc → 7 → 2* für Umstellung von Grad auf Rad
 - *Menu → 4 → 1* für Ableitungen
+
+Eingabe von solve um 2 Variablen aufzulösen + Filter mit and
+$
+"solve"({2=a*b +3 "and" 0 <= a, 4=(a/b)*2 "and" 0 <= a}, {a,b})
+$
