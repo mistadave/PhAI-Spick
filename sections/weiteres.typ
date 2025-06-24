@@ -42,9 +42,7 @@ Diese Gleichung beschreibt die Bewegung eines harmonischen Oszillators unter Ber
 - *doc → 7 → 2* für Umstellung von Grad auf Rad
 - *Menu → 4 → 1* für Ableitungen
 
-== Fundamentum Mathematik und Physik Inhalt
-- *Trigometrie:* Seite 26
-- *Ableitungen:* Seite 60
-- *Kinematik:* Seite 81
-- *Kräfte:* Seite 83
-- *Energie:* Seite 85
+Eingabe von solve um 2 Variablen aufzulösen + Filter mit and
+$
+"solve"({2=a*b +3 "and" 0 <= a, 4=(a/b)*2 "and" 0 <= a}, {a,b})
+$

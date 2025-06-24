@@ -34,7 +34,6 @@ m/s^2$ und die Geschwindigkeit während der gleichförmigen Bewegung $54 (k m)/h
   $ t_0=0 s $, $ t_1=? $, $ t_2=? $,	$ t_3=? $
 )
 
-#colbreak()
 3. Fehlende Werte für Zone 1 berechnen in dem man Formeln umstellt
 $
 v_1&=v_0+a_01 dot t_1 \
@@ -80,7 +79,6 @@ $
 $
 t_R = frac(s_"AB" + Delta s, v_R) + Delta t
 $
-#colbreak()
 4. Da gemäss s-t-Diagramm beide Zeiten gleich sind, können wir die beiden Gleichungen gleichsetzen und nach $S_"AB"$ umstellen.
 $
 t_F &= t_R \
@@ -101,7 +99,6 @@ $
   1. Richtungsgleichung aufstellen
   ], image("../figures/aufgaben6.png")
 )
-
 
 $
 arrow(r) = arrow(r_0) + arrow(v_0) dot t + 1/2 dot arrow(a) dot t^2
@@ -199,7 +196,6 @@ $ F = sqrt((colmagenta([ ])^2 + colblue({ })^2) / (1 - h^2/l^2)) = 3056 N $
 9. Winkel $gamma$ erhalten wir als Quotient von Y und X-Gleichung:
 $ gamma = arctan(colblue({ }) / colmagenta([ ])) = 17.3^circle.small $
 
-#colbreak()
 === 2. Newtonsche Gesetz (Kräfte in Bewegung)
 #grid(
   columns: (auto, 45%),
@@ -268,9 +264,7 @@ $
 Delta x &= -5 "cm" cos(sqrt(100/0.15 + 100/0.1) dot t) + 10 "cm" \
 &= -5 "cm" cos((40.8 dot t )/ 1s) + 10 "cm" \
 T &= (2 pi) / 40.8 = 0.154 s
-
 $
-#colbreak()
 == Energie
 === Ballwurf mit Energieerhaltung
 Ein Kind will einen Ball über eine $2m$ von ihm entfernte Mauer werfen. Die dazu minimal erforderliche Wurfhöhe ist $10m$. Welches ist der minimal erforderliche Betrag der Geschwindigkeit, mit der der Junge den Ball abwerfen muss?

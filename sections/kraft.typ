@@ -7,7 +7,12 @@
   [*Kraft:*], [$arrow(F)_"res"=m arrow(a)$],
   [*Gewichtskraft:*], [$F_G=m g $],
   [*Federkraft:*], [$F_F=D y space.quad D &= "Federkonst." \ y &= abs(l - l_0)$],
-    [*Hook\`sches Gesetz:*], [$Delta F=D dot Delta y$],
+  [*Hook\`sches Gesetz:*], [$Delta F=D dot Delta y$]
+)
+Verhalten von elastischen Körpern (vor allem Federn)
+#grid(
+  columns: (50%, auto),
+  gutter: 5pt,
   [*Schiefe Ebene:* #image("../figures/kraftSchiefeEbene.png")], [$F_G=m g$ \
   #v(5pt)
   *Normalkraft:* \ 
@@ -51,7 +56,7 @@ $ F_L/sqrt(3^2+4^2 ) vec(-3,4)+F_R/sqrt(8^2+6^2 ) vec(8,6)+m g vec(0,-1)=0 $
 
 *2. Methode*
 
-$ F_L vec(-cos(alpha),sin(alpha))+F_R vec(cos(beta),sin(beta))+m g vec(0,-1)=0 $
+$ vec(X,Y) | F_L vec(-cos(alpha),sin(alpha))+F_R vec(cos(beta),sin(beta))+m g vec(0,-1)=0 $
 
 #grid(
   columns: (auto, auto),
@@ -73,3 +78,20 @@ $
 F_T vec(cos(180^circle.small - 20^circle.small),sin(180^circle.small - 20^circle.small))  +F_T vec(cos(20^circle.small),sin(20^circle.small)) \ + F_Z vec(cos(20^circle.small),sin(20^circle.small)) + vec(0,-20 "kN")=0 \
 ==> F_T = 9.97 dot 10^4 N, F_Z = 8.48 dot 10^3 N
 $
+
+*Trägheitskraft*
+$
+arrow(F)_("Tr") =  m * arrow(a)(') = -m*arrow(a)_("Bez")
+$
+
+=== Corioliskraft
+
+$
+arrow(F)_C = 2m(arrow(v)_0 × arrow(omega))
+$
+
+$
+F_C = 2m v_0 omega
+$
+
+#align(center, image("../figures/corioliskraft-draw.png", width: 50%))

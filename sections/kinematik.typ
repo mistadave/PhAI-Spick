@@ -40,18 +40,19 @@ $
 
 == Schiefer Wurf
 *Bewegungsgleichung:* $arrow(r) (t)= arrow(r_0) + arrow(v_0 ) t+1/2 arrow(g) t^2$ \
-
 $ vec(x(t), y(t)) = vec(0,y_0) + v_0 vec(cos(alpha), sin(alpha)) dot t + 1/2 vec(0,-g) t^2 $
+Flugzeit(s):
+$ t_("Flug")= (2v^2_0 sin(alpha))/g $
 
-#image("../figures/schieferwurf.png")
+#image("../figures/schieferWurf.png")
 
 #grid(
   columns: (auto, 38%),
   gutter: 5pt,
 $ 
 y =& x dot tan(alpha_0) - g / (2 v_0^2 cos^2(alpha_0)) dot x^2 \
-y_(max) &= (v_0^2 sin^2(alpha_0))/(2g) \
-x_w &=(v_0^2 sin(2 alpha_0))/g
+y_(max) &= (v_0^2 sin^2(alpha_0))/(2g) ("Höhe" m) \
+x_w &=(v_0^2 sin(2 alpha_0))/g ("Weite" m)
 $,
 image("../figures/schieferWurf2.png")
 )
