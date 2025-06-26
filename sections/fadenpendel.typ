@@ -16,7 +16,7 @@ $ (m v^2)/2 &=m g h \ &= m g(l-l dot cos(phi) ) \ &= m g l(1-cos(φ) ) $
 #grid(
   columns: (auto, auto),
   gutter: 5pt,
-  [Feder], [$T=2 phi sqrt(m/D) $],
+  [Feder], [$T=2 pi sqrt(m/D) $],
   [Mathematisches Pendel], [$T(sec)  = frac(2 pi, w) approx 2 pi sqrt(l/g)$]
 )
   ]
