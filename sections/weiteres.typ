@@ -46,3 +46,5 @@ Eingabe von solve um 2 Variablen aufzulösen + Filter mit and
 $
 "solve"({2=a*b +3 "and" 0 <= a, 4=(a/b)*2 "and" 0 <= a}, {a,b})
 $
+
+#image("../figures/vertikalundhorizontal.png",width: 50%)
