@@ -2,10 +2,10 @@
 #grid(
   columns: (auto, auto),
   gutter: 5pt,
-  [*Mittlere Geschwindigkeit:*], [*$macron(v) (m/s) = (Delta v)/(Delta s)$*],
-  [*Mittlere Beschleunigung:*], [*$macron(a) (m/s^2) = (Delta v)/(Delta t)$*],
-  [*Gleichförmige Bewegung:*], [*$s (m) = s_0 + v dot t a => s/v = t$*],
-  [*Geradlinige Bewegung:*], [$Delta s(m)= macron(v) Delta t$],
+  [*Mittlere Geschwindigkeit:*], [*$macron(v) = (Delta s)/(Delta t), [v] = m/s$*],
+  [*Mittlere Beschleunigung:*], [*$macron(a) = (Delta v)/(Delta t), [a]=m/s^2$*],
+  [*Gleichförmige Bewegung:*], [*$s = s_0 + v dot t a => s/v = t, [s]=m$*],
+  [*Geradlinige Bewegung:*], [$Delta s= macron(v) Delta t, [s]=m$],
 )
 *Gleichmässig beschleunigte Bewegung:*
 $
