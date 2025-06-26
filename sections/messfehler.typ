@@ -67,3 +67,10 @@ $
   [*Gradmass in Bogenmass*],	[$x=alpha/180 dot π$],	
   [*Bogenmass in Gradmass*],	[$alpha =x/π dot 180$]
 )
+*Beispiele Ableitung*
+$
+frac(delta, delta v) frac(v^2, 2 s) = frac(2v, 2s) = frac(v, s)
+$
+$
+frac(delta, delta s) frac(v^2, 2 s) = frac(v^2, 2) dot frac(delta, delta s) frac(1, s) = -frac(frac(frac(delta, delta s) dot |s|,s^2 ) dot v^2,2) = -frac(1v^2, 2s^2)= -frac(v^2, 2s^2) 
+$
