@@ -7,7 +7,7 @@ Daraus folgt die Formel für die
   columns: (50%, 50%),
   fill: (_, row) => if row == 0 { gray },
   [Geschwindigkeit], [Umlaufzeit],
-  $v= sqrt(g r)$, [$T=2 pi sqrt(r/g)$]
+  $v= sqrt(g r)$, [$T=2 pi sqrt(r/g)$],
 )
 
 *Geostationär:* Geostationär bedeutet, dass der Satellit gleiche Umlaufzeit $T$ wie die Erde hat. \
@@ -19,11 +19,12 @@ Daraus folgt die Formel für die
   inset: 5pt,
   [*Gravitationskraft \ zweier Massenpunkte:*], $ F_G=G (m_1 m_2)/r^2 \ arrow(F_G) =-G (m_1 m_2)/r^2 dot arrow(r)/r $,
   [*Potenzielle Energie:*], $ E_p=-G (m_1 m_2)/r $,
-  [*Kreisbahngeschwindigkeit:*], $ v= sqrt((G M_E)/r_E ) $,
-  [*Fluchtgeschwindigkeit:*], $ v= sqrt((2G M_E)/r_E ) $,
+  [*Kreisbahngeschwindigkeit:*], $ v= sqrt((G M_E)/r_E) $,
+  [*Fluchtgeschwindigkeit:*], $ v= sqrt((2G M_E)/r_E) $,
   [*Energie Änderung \ bei Bahnänderung:* \ #v(5pt)
-  $ Delta E &=(G M_E m)/r  (r'-r)/(r' r) \
-  r' &= "Radius neue Bahn"$], image("../figures/kosmologie.png")
+    $Delta E &=(G M_E m)/r (r'-r)/(r' r) \
+    r' &= "Radius neue Bahn"$],
+  image("../figures/kosmologie.png"),
 )
 
 *Potenzielle Energie eines Objekts im Gravitationsfeld eines anderen:*
