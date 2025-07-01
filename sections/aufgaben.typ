@@ -248,6 +248,18 @@ $
       & = 1 dot 3.92+0.5 dot 1 dot 9.81=8.67 N
 $
 
+*Aufgabe 2*: m_a = 1.5 kg, $m_b$ = 1 kg (hängt vertikal an rolle), reibungsfrei, $m_a$ auf schiefer Ebene mit winkel $alpha = 30^circle.small$.
+Bestimme Beschleunigung von Körper $m_a$.
+$F_(G,a) = m_a*arrow(g), arrow(F)_N=F_N vec(-sin alpha, cos alpha), arrow(F)_(Z,a) = F_z vec(cos alpha, sin alpha)$
+Newtonsche Gesetze: $m_a arrow(a)_a = arrow(F)_(G,a) + arrow(F)_N + arrow(F)_(Z,a) , F_G + F_N = F_H = -F_G sin alpha vec(cos alpha, sin alpha)$
+Res Skalare Beschleunigung: $a_a = frac(F_z - F_(G,a) sin alpha, m_a)$
+
+$F_(G,b) = m_b*arrow(g), arrow(F)_(Z,b) = F_z vec(0, -1)$
+Newtonsches Gesetz: $m_b arrow(a)_b = arrow(F)_(G,b) + arrow(F)_(Z,b)$
+Res skalare Beschleunigung: $a_b = frac(m_b g, m_b) - frac(F_z, m_b) = g-frac(F_z, m_b)$
+
+Da Seil gespannt, müssen a_a und a_b gleich sein: $a_a = a_b$ das ganze nach a umstellen und ausrechnen. Resultat: $a_a = 0.981m/s, "beschleunigung nach oben"$
+
 === Bewegung zwei Körper
 Wir betrachten zwei Wagen mit den Massen $m_1 = 150 g$ und $m_2 = 100 g,$ die sich reibungslos bewegen können.
 Zwischen den Wagen befindet sich eine Feder mit einer ungespannten

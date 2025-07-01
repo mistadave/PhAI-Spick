@@ -24,8 +24,8 @@
     #grid(
       columns: (auto, auto),
       gutter: 5pt,
-      [Feder], [$T=2 pi sqrt(m/D)$],
-      [Mathematisches Pendel], [$T(sec) = frac(2 pi, w) approx 2 pi sqrt(l/g)$],
+      [Feder], [$T=2 pi sqrt(m/D), [T]=s$],
+      [Mathematisches Pendel], [$T = frac(2 pi, w) approx 2 pi sqrt(l/g)$],
     )
   ],
 )

@@ -24,7 +24,6 @@ Verhalten von elastischen Körpern (vor allem Federn)
     #v(5pt)
     *Haftreibungskraft:* \
     $F_"HR"=μ dot F_N$ #v(5pt)],
-
   [*Zentripetalkraft / \ Zentrifugalkraft:*], [$F_Z=(m v^2)/r = m dot omega^2 dot r$],
 )
 #v(4pt)
