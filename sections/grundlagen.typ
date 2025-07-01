@@ -6,7 +6,13 @@
   inset: 5pt,
   align: (center, center, center, center, center, center),
   fill: (column, row) => if column == 0 or row == 0 { gray },
-  [], [$0^circle.stroked.small$], [$30^circle.stroked.small$], [$45^circle.stroked.small$], [$60^circle.stroked.small$], [$90^circle.stroked.small$],
+  [],
+  [$0^circle.stroked.small$],
+  [$30^circle.stroked.small$],
+  [$45^circle.stroked.small$],
+  [$60^circle.stroked.small$],
+  [$90^circle.stroked.small$],
+
   [$sin(alpha)$], [$0$], [$1/2$], [$sqrt(2)/2$], [$sqrt(3)/2$], [$1$],
   [$cos(alpha)$], [$1$], [$sqrt(3)/2$], [$sqrt(2)/2$], [$1/2$], [$0$],
   [$tan(alpha)$], [$0$], [$sqrt(3)/3$], [$1$], [$sqrt(3)$], [$-$],
@@ -20,7 +26,7 @@
     #set block(spacing: 0pt)
     #image("../figures/sincosgraph.png")
     #image("../figures/sincosableitung.png")
-  ]
+  ],
 )
 
 == Vektorrechnung
@@ -32,12 +38,12 @@
   inset: 2pt,
   fill: (_, row) => if row == 0 { gray },
   [*Funktion*], [*Ableitung*],
-  $ x^a $,      $ a dot x^(a-1) $,
-  $ 1/x $,      $ - 1 / x^2 $,
-  $ sqrt(x) $,  $ frac(1, 2 sqrt(x)) $,
-  $ sin(x) $,   $ cos(x) $,
-  $ cos(x) $,   $ -sin(x) $,
-  $ tan(x) $,   $ 1 / cos(2)^x $,
+  $ x^a $, $ a dot x^(a-1) $,
+  $ 1/x $, $ - 1 / x^2 $,
+  $ sqrt(x) $, $ frac(1, 2 sqrt(x)) $,
+  $ sin(x) $, $ cos(x) $,
+  $ cos(x) $, $ -sin(x) $,
+  $ tan(x) $, $ 1 / cos(2)^x $,
 )
 
 *Produktregel:* $ d/(d x)(f(x) dot g(x)) = f'(x) dot g(x) + f(x) dot g'(x) $

@@ -1,21 +1,21 @@
-#import "../utils.typ" : *
+#import "../utils.typ": *
 
 = Weiteres
 == Differential Equations
 1. *Bewegungsgleichung aufstellen:*\
   Die Bewegungsgleichung für eine harmonische Schwingung lautet:
-  
+
   $ m dot.double(s)(t) \= -D s(t) $
-  
+
   Umgestellt ergibt sich:
- 
+
   $ dot.double(s)(t) \= -frac(D, m) s(t) $
-  
+
 
 2. *Lösung der Differentialgleichung:*\
   Eine allgemeine Lösung dieser Differentialgleichung ist:
 
-  $ s(t) = A sin(sqrt(frac(D,m))t) + B cos(sqrt(frac(D,m)) t) $
+  $ s(t) = A sin(sqrt(frac(D, m))t) + B cos(sqrt(frac(D, m)) t) $
 
   Dabei sind $A$ und $B$ Konstanten, die durch die Anfangsbedingungen bestimmt werden.
 
@@ -44,5 +44,7 @@ Diese Gleichung beschreibt die Bewegung eines harmonischen Oszillators unter Ber
 
 Eingabe von solve um 2 Variablen aufzulösen + Filter mit and
 $
-"solve"({2=a*b +3 "and" 0 <= a, 4=(a/b)*2 "and" 0 <= a}, {a,b})
+  "solve"({2=a*b +3 "and" 0 <= a, 4=(a/b)*2 "and" 0 <= a}, {a,b})
 $
+
+#image("../figures/vertikalundhorizontal.png", width: 50%)

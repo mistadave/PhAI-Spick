@@ -5,15 +5,17 @@
   gutter: 5pt,
   $ Delta E = W_"AB" $,
   [*$Delta E$*: Energieänderung eines offenen Systems \
-  *$W_"AB"$*: Arbeit, einer äusseren Kraft an diesem System]
+    *$W_"AB"$*: Arbeit, einer äusseren Kraft an diesem System],
 )
 
 #grid(
   columns: (auto, auto),
   gutter: 5pt,
-  $ W &= F_s dot s \
-  W &= F dot s dot cos(alpha) = arrow(F) dot arrow(s) $,
-  image("../figures/arbeit.jpg")
+  $
+    W & = F_s dot s                                      \
+    W & = F dot s dot cos(alpha) = arrow(F) dot arrow(s)
+  $,
+  image("../figures/arbeit.jpg"),
 )
 
 *Arbeit auf der scheifen Ebene mit Reibung:*

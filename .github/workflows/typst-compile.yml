@@ -12,21 +12,23 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+
       - name: Compile Typst Files
         uses: ammar-ahmed22/compile-typst-action@v1
         with:
           source_paths: "main.typ"
-          output_paths: "main.pdf"
-          fonts_path: "path/to/fonts"
+          output_paths: "phai.pdf"
+        
       - name: Upload Artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: PDF
           path: "**/*.pdf"
+          
       - name: Release on tag
         uses: softprops/action-gh-release@v2
         if: github.ref_type == 'tag'
         with:
           name: "${{ github.ref_name }}"
           files: |
-            main.pdf
+            phai.pdf
