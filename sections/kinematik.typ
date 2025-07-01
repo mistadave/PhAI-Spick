@@ -9,10 +9,10 @@
 )
 *Gleichmässig beschleunigte Bewegung:*
 $
-          s & = s_0+v_0 dot t+1/2 a t^2                      \
-          v & = v_0+a t                                      \
-        v^2 & =v_0^2+2a(s-s_0) => "wenn" v_0=0 => s=v^2/(2a) \
-  macron(v) & = (v_1 + v_2)/2                                \
+          s & = s_0+v_0 dot t+1/2 a t^2 | s = v_0t + frac(1, 2)a dot t^2 -> (t "mit" v_0, v_1) -> frac(v_1^2 - v_0^2, 2a) \
+          v & = v_0+a t                                                                                                   \
+        v^2 & =v_0^2+2a(s-s_0) => "wenn" v_0=0 => s=v^2/(2a)                                                              \
+  macron(v) & = (v_1 + v_2)/2                                                                                             \
           t & = v/a=(v_0-v)/a
 $
 
