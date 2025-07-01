@@ -17,9 +17,9 @@ now you'r ready.
 ## commands
 
 ```bash
-typst compile main.typ main.pdf
+typst compile main.typ main.pdf # for single build
 
-typst watch
+typst watch main.typ out/phai.pdf #for live compiling the pdf while writing
 ```
 
 ## Tips Tricks
