@@ -5,7 +5,7 @@
   columns: (50%, auto),
   gutter: 5pt,
   [*Kraft:*], [$arrow(F)_"res"=m arrow(a)$],
-  [*Gewichtskraft:*], [$F_G=m g$],
+  [*Gewichtskraft:*], [$F_G=m g | F_N = -F_G $],
   [*Federkraft:*], [$F_F=D y space.quad D &= "Federkonst." \ y &= abs(l - l_0)$],
   [*Hook\`sches Gesetz:*], [$Delta F=D dot Delta y$],
 )
