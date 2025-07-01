@@ -54,6 +54,10 @@ Ein Gewicht der Masse $m = 10"kg"$ wird entsprechend der obigen Skizze durch Sei
 
 $ F_L/sqrt(3^2+4^2) vec(-3, 4)+F_R/sqrt(8^2+6^2) vec(8, 6)+m g vec(0, -1)=0 $
 
+$"x-Richtung": -frac(3,5)F_L+frac(8,10)F_R=0 => 6F_L=8F_R => F_R = frac(3,4) F_L$ 
+$"y-Richtung": frac(4,5)F_L + frac(6,10)F_R = m dot g = 10 dot 9.81 = 98.1N$
+Einsetzen von $F_R$ in die Gleichung: $F_L = 78.48N, F_R = 58.9N $
+
 *2. Methode*
 
 $ vec(X, Y) | F_L vec(-cos(alpha), sin(alpha))+F_R vec(cos(beta), sin(beta))+m g vec(0, -1)=0 $
@@ -85,12 +89,6 @@ $
 
 === Corioliskraft
 
-$
-  arrow(F)_C = 2m(arrow(v)_0 × arrow(omega))
-$
-
-$
-  F_C = 2m v_0 omega
-$
+$arrow(F)_C = 2m(arrow(v)_0 × arrow(omega)) | F_C = 2m v_0 omega$
 
 #align(center, image("../figures/corioliskraft-draw.png", width: 50%))

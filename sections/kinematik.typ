@@ -42,7 +42,7 @@ $
 *Bewegungsgleichung:* $arrow(r) (t)= arrow(r_0) + arrow(v_0) t+1/2 arrow(g) t^2$ \
 $ vec(x(t), y(t)) = vec(0, y_0) + v_0 vec(cos(alpha), sin(alpha)) dot t + 1/2 vec(0, -g) t^2 $
 Flugzeit(s):
-$ t_("Flug")= (2v^2_0 sin(alpha))/g $
+$ t_("Flug")= (2v^2_0 sin(alpha))/g | v_0=sqrt(v_(0y)^2 + v_(0x)^2)$
 
 #image("../figures/schieferWurf.png")
 
